@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		2C0C5429216E916C00899243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0C5428216E916C00899243 /* AppDelegate.swift */; };
-		2C0C542B216E916C00899243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0C542A216E916C00899243 /* ViewController.swift */; };
+		2C0C542B216E916C00899243 /* BLEHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0C542A216E916C00899243 /* BLEHomeViewController.swift */; };
 		2C0C542E216E916C00899243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C542C216E916C00899243 /* Main.storyboard */; };
 		2C0C5430216E916C00899243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C542F216E916C00899243 /* Assets.xcassets */; };
 		2C0C5433216E916C00899243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0C5431216E916C00899243 /* LaunchScreen.storyboard */; };
+		2C0C543B216E930200899243 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0C543A216E930200899243 /* CoreBluetooth.framework */; };
+		2C210B6222DB8E9300A65F4C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C210B6122DB8E9300A65F4C /* GradientView.swift */; };
+		2C210B6422DB96C000A65F4C /* BLEDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F182E217B9355008B4E54 /* BLEDetailsViewController.swift */; };
+		2C59A03C21B458CB00C80137 /* BLELocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59A03B21B458CA00C80137 /* BLELocationManager.swift */; };
+		2C59A04121B45E8400C80137 /* BLELocationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59A04021B45E8400C80137 /* BLELocationManagerProtocol.swift */; };
+		2CA229AF21986791002D5A17 /* BeaconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA229AE21986791002D5A17 /* BeaconTableViewCell.swift */; };
+		2CA229B1219868DD002D5A17 /* BeaconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA229B0219868DD002D5A17 /* BeaconTableViewCell.xib */; };
+		89D2C8E5798D4F673CE86B86 /* Pods_BLECypress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4D22337764F30C7AED377A /* Pods_BLECypress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4D22337764F30C7AED377A /* Pods_BLECypress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLECypress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA7CDC07EE9B4B5660427DE /* Pods-BLECypress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLECypress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLECypress/Pods-BLECypress.debug.xcconfig"; sourceTree = "<group>"; };
 		2C0C5425216E916C00899243 /* BLECypress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLECypress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0C5428216E916C00899243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C0C542A216E916C00899243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C0C542A216E916C00899243 /* BLEHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEHomeViewController.swift; sourceTree = "<group>"; };
 		2C0C542D216E916C00899243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C0C542F216E916C00899243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0C5432216E916C00899243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0C5434216E916C00899243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0C543A216E930200899243 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2C210B6122DB8E9300A65F4C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2C59A03B21B458CA00C80137 /* BLELocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELocationManager.swift; sourceTree = "<group>"; };
+		2C59A04021B45E8400C80137 /* BLELocationManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELocationManagerProtocol.swift; sourceTree = "<group>"; };
+		2C9F182E217B9355008B4E54 /* BLEDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDetailsViewController.swift; sourceTree = "<group>"; };
+		2CA229AE21986791002D5A17 /* BeaconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconTableViewCell.swift; sourceTree = "<group>"; };
+		2CA229B0219868DD002D5A17 /* BeaconTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeaconTableViewCell.xib; sourceTree = "<group>"; };
+		AF5BF26DF31C37FAC8D52BE7 /* Pods-BLECypress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLECypress.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLECypress/Pods-BLECypress.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0C543B216E930200899243 /* CoreBluetooth.framework in Frameworks */,
+				89D2C8E5798D4F673CE86B86 /* Pods_BLECypress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +60,8 @@
 			children = (
 				2C0C5427216E916C00899243 /* BLECypress */,
 				2C0C5426216E916C00899243 /* Products */,
+				9B81FD94DF34608A49F9772F /* Pods */,
+				5A457E59E1BB0B6B52CE1A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,70 @@
 		2C0C5427216E916C00899243 /* BLECypress */ = {
 			isa = PBXGroup;
 			children = (
+				2C210B6322DB961100A65F4C /* Controllers */,
+				2C59A03F21B45E6E00C80137 /* Protocols */,
+				2C59A03A21B458AF00C80137 /* Managers */,
+				2CA229AD21986771002D5A17 /* Views */,
 				2C0C5428216E916C00899243 /* AppDelegate.swift */,
-				2C0C542A216E916C00899243 /* ViewController.swift */,
 				2C0C542C216E916C00899243 /* Main.storyboard */,
 				2C0C542F216E916C00899243 /* Assets.xcassets */,
 				2C0C5431216E916C00899243 /* LaunchScreen.storyboard */,
 				2C0C5434216E916C00899243 /* Info.plist */,
 			);
 			path = BLECypress;
+			sourceTree = "<group>";
+		};
+		2C210B6322DB961100A65F4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C9F182E217B9355008B4E54 /* BLEDetailsViewController.swift */,
+				2C0C542A216E916C00899243 /* BLEHomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C59A03A21B458AF00C80137 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C59A03B21B458CA00C80137 /* BLELocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C59A03F21B45E6E00C80137 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2C59A04021B45E8400C80137 /* BLELocationManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2CA229AD21986771002D5A17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA229AE21986791002D5A17 /* BeaconTableViewCell.swift */,
+				2CA229B0219868DD002D5A17 /* BeaconTableViewCell.xib */,
+				2C210B6122DB8E9300A65F4C /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A457E59E1BB0B6B52CE1A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C0C543A216E930200899243 /* CoreBluetooth.framework */,
+				1D4D22337764F30C7AED377A /* Pods_BLECypress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B81FD94DF34608A49F9772F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7CDC07EE9B4B5660427DE /* Pods-BLECypress.debug.xcconfig */,
+				AF5BF26DF31C37FAC8D52BE7 /* Pods-BLECypress.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C0C5437216E916C00899243 /* Build configuration list for PBXNativeTarget "BLECypress" */;
 			buildPhases = (
+				0F772C9DF928E8CC28A7A4BF /* [CP] Check Pods Manifest.lock */,
 				2C0C5421216E916C00899243 /* Sources */,
 				2C0C5422216E916C00899243 /* Frameworks */,
 				2C0C5423216E916C00899243 /* Resources */,
+				083A6FB9F3FE46511D2CA522 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +171,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Monica Bura";
 				TargetAttributes = {
 					2C0C5424216E916C00899243 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,18 +211,65 @@
 				2C0C5433216E916C00899243 /* LaunchScreen.storyboard in Resources */,
 				2C0C5430216E916C00899243 /* Assets.xcassets in Resources */,
 				2C0C542E216E916C00899243 /* Main.storyboard in Resources */,
+				2CA229B1219868DD002D5A17 /* BeaconTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083A6FB9F3FE46511D2CA522 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BLECypress/Pods-BLECypress-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLECypress/Pods-BLECypress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F772C9DF928E8CC28A7A4BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLECypress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C0C5421216E916C00899243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0C542B216E916C00899243 /* ViewController.swift in Sources */,
+				2C210B6422DB96C000A65F4C /* BLEDetailsViewController.swift in Sources */,
+				2C0C542B216E916C00899243 /* BLEHomeViewController.swift in Sources */,
 				2C0C5429216E916C00899243 /* AppDelegate.swift in Sources */,
+				2C210B6222DB8E9300A65F4C /* GradientView.swift in Sources */,
+				2C59A04121B45E8400C80137 /* BLELocationManagerProtocol.swift in Sources */,
+				2C59A03C21B458CB00C80137 /* BLELocationManager.swift in Sources */,
+				2CA229AF21986791002D5A17 /* BeaconTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +309,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +317,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -211,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -234,6 +368,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -262,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,31 +408,35 @@
 		};
 		2C0C5438216E916C00899243 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA7CDC07EE9B4B5660427DE /* Pods-BLECypress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2JQNW4N62;
 				INFOPLIST_FILE = BLECypress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MB.BLECypress;
+				PRODUCT_BUNDLE_IDENTIFIER = MB.BLECypress.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2C0C5439216E916C00899243 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5BF26DF31C37FAC8D52BE7 /* Pods-BLECypress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2JQNW4N62;
 				INFOPLIST_FILE = BLECypress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MB.BLECypress;
+				PRODUCT_BUNDLE_IDENTIFIER = MB.BLECypress.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
